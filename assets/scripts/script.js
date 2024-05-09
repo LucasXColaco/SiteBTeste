@@ -13,3 +13,14 @@ function closeMenu() {
   whatsapp.style.display = "block";
   whatsapp.style.animation = "fadein 0.2s ease-in";
 }
+
+function mudouTamanho(){
+  if (window.innerWidth >= 768){
+    menu.style.display = "flex";
+    document.querySelector('.material-symbols-outlined').style.display = 'none';
+  }
+  else{
+    menu.style.display = "none";
+    document.querySelector('.material-symbols-outlined').style.display = 'block';
+  }
+}

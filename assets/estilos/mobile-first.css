@@ -254,6 +254,11 @@ section#produtos > a{
   margin-bottom: 50px;
 }
 
+section#produtos > a:hover{
+  background-color: #d8251f;
+  color: #eee;
+}
+
 section#quem-somos {
   display: flex;
   flex-direction: column;
