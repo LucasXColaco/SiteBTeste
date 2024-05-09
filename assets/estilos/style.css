@@ -31,7 +31,9 @@
     display: block;
     position: static;
     margin-right: 50px;
+    width: auto;
     padding: 0px;
+    border: none;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -44,6 +46,7 @@
 
   header > nav > menu > a.fale-conosco {
     position: static;
+    width: auto;
     padding: 10px 20px;
     margin-right: 100px;
     margin-top: 0;
@@ -148,6 +151,7 @@
 
   section#produtos > div > div > img {
     width: 400px;
+    height: 400px;
     margin-bottom: 100px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.297);
   }
@@ -184,14 +188,17 @@
   }
 
   section#quem-somos > article > div > p {
-    width: 500px;
+    width: 300px;
+    text-align: justify;
+    align-self: start;
     font-size: 18px;
-    padding-right: 70px;
-    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   section#quem-somos > article > div > img {
     width: 500px;
+    height: 250px;
     margin-bottom: 50px;
     border-radius: 5px;
   }

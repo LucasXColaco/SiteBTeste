@@ -45,7 +45,7 @@ p {
 header {
   display: flex;
   position: sticky;
-  top: 0px;
+  top: 0;
   justify-content: space-around;
   align-items: center;
   background-color: white;
@@ -76,6 +76,7 @@ header > nav > menu {
   position: absolute;
   right: 0;
   top: 0;
+  padding-left: 0;
   transform: translateY(-10%);
   display: none;
   flex-direction: column;
