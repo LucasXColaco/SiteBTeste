@@ -17,10 +17,10 @@ function closeMenu() {
 function mudouTamanho(){
   if (window.innerWidth >= 768){
     menu.style.display = "flex";
-    document.querySelector('.material-symbols-outlined').style.display = 'none';
+    document.getElementsByClassName('material-symbols-outlined').style.display = 'none';
   }
   else{
     menu.style.display = "none";
-    document.querySelector('.material-symbols-outlined').style.display = 'block';
+    document.getElementsByClassName('material-symbols-outlined').style.display = 'block';
   }
 }
