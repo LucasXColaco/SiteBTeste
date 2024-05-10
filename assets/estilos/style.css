@@ -140,7 +140,11 @@
   }
 
   section#produtos > div > div.primeiro{
-    margin-right: var(--gap-xxl);
+    margin-right: calc(var(--gap-xxl)/2);
+  }
+
+  section#produtos > div > div.segundo{
+    margin-left: calc(var(--gap-xxl)/2);
   }
 
   section#produtos > div > div > h2 {
@@ -205,13 +209,13 @@
     align-self: start;
     font-size: 18px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: calc(var(--gap-xxl)/2);
   }
 
   section#quem-somos > article > div > img {
     width: auto;
     height: 250px;
-    margin-left: var(--gap-xxl);
+    margin-left: calc(var(--gap-xxl)/2);
     margin-bottom: 0;
     border-radius: 5px;
   }
